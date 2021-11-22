@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <article class="entry-content clearfix">
+
+
+        <div class="fsb-clear"></div>
+        <p>Hoy vamos a ver <strong>como instalar React</strong>, una de las librerías o frameworks para JavaScript más
+            populares.</p>
+        <p>Para hacer la instalación de ReactJS vamos a seguir estos sencillos pasos:</p>
+        <p><strong>Paso 1.</strong> Instalar NodeJS en su ultima versión, para eso entraremos a su web oficial y
+            descargaremos el instalador más actualizado <a href="https://nodejs.org/es/" rel="noopener noreferrer"
+                target="_blank">https://nodejs.org/es/</a></p>
+        <p><strong>Paso 2.</strong> Actualizar NPM, el gestor de paquetes de node, para bajarnos las dependencias más
+            actuales:</p>
+        <pre class="brush: bash; title: ; notranslate" title="">npm install -g npm@latest
+</pre>
+        <p><strong>Paso 3.</strong> Borrar la cache de NPM:</p>
+        <pre class="brush: bash; title: ; notranslate" title="">npm cache clean --force
+</pre>
+        <p><strong>Paso 4.</strong> Instalar Create React App, que es un interprete de consola(CLI) que nos va a
+            permitir instalar React facilmente e incluirá webpack para la compilación y minificación del proyecto, un
+            live reload, una estructura básica para los proyectos de ReactJS, etc, veamos como instalar este paquete:
+        </p>
+        <pre class="brush: bash; title: ; notranslate" title="">npm install -g create-react-app
+</pre>
+        <p>Ahora ya tenemos instalado «create react app» y ya podemos generar un nuevo proyecto de React.js</p>
+        <p>Para generar un nuevo proyecto de React.js y finalmente instalarlo, entraremos al directorio donde queramos
+            generar el proyecto de reactjs y ejecutamos este comando:</p>
+        <pre class="brush: bash; title: ; notranslate" title="">create-react-app NombreDeMiProyecto
+</pre>
+        <p>Ahora entraremos al directorio de nuestro proyecto y lanzaremos el servidor local de pruebas para React:</p>
+        <pre class="brush: bash; title: ; notranslate" title="">cd NombreDeMiProyecto
+npm start
+</pre>
+        <p>Puedes comprobar la versión de React que tienes dentro del fichero package.json.</p>
+        <p>Ahora tendremos disponible la webapp de React 16 en <strong>http://localhost:3000/</strong> y veremos nuestro
+            proyecto corriendo, con la página de bienvenida por defecto.</p>
+        <p>Con esto ya sabemos como instalar React desde cero y como generar un proyecto base.</p>
+        <img src="react.png" alt="">
+
+    </article>
+</body>
+
+</html>
